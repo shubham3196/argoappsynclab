@@ -1,0 +1,25 @@
+
+apiVersion: v1
+
+kind: ConfigMap
+
+metadata:
+
+  name: demo-config
+
+data:
+
+  config.json: |
+
+    {
+
+      "feature_flags": {
+
+        "new_ui": true,
+
+        "beta_features": false
+
+      }
+
+    }
+
